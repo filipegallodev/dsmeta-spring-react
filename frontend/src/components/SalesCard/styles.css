@@ -1,11 +1,13 @@
 .dsmeta-card {
-  background-color: #283142;
+  background-color: #1f1f1f;
   border-radius: 10px;
   padding: 30px 10px;
+  box-shadow: 0px 0px 15px 10px #111111;
+  border: 3px solid #0a76a8;
 }
 
 .dsmeta-sales-title {
-  color: #676fff;
+  color: #8ed1f0;
   font-size: 24px;
   margin-bottom: 20px;
 }
@@ -18,10 +20,10 @@
 .dsmeta-form-control {
   width: 100%;
   height: 46px;
-  background-color: #1b2531;
-  border: 1px solid #384459;
+  background-color: #2f2f2f;
+  border: 1px solid #888888;
   border-radius: 5px;
-  color: #9aaabe;
+  color: #cfcfcf;
   padding: 0 20px;
   font-size: 18px;
 }
@@ -35,28 +37,28 @@
 .dsmeta-sales-table thead {
   height: 55px;
   font-size: 16px;
-  color: #e9e9e9;
+  color: #F8FAFC;
   font-weight: 700;
 }
 
 .dsmeta-sales-table tbody {
   font-size: 14px;
   font-weight: 400;
-  color: #cfcfcf;
+  color: #dfdfdf;
   text-align: center;
 }
 
 .dsmeta-sales-table tbody tr {
   height: 74px;
-  border-top: 1px solid #5f6e82;
+  border-top: 1px solid #888888;
 }
 
 .dsmeta-sales-table tbody tr:hover>td {
-  background-color: #384459;
+  background-color: #3f3f3f;
 }
 
 .dsmeta-sales-table tbody tr:nth-child(odd) {
-  background-color: #242c3b;
+  background-color: #292929;
 }
 
 .dsmeta-red-btn-container {

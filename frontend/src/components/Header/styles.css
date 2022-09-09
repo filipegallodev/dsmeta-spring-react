@@ -1,9 +1,11 @@
 header {
-  background: linear-gradient(180deg, #102347 0%, #181818 100%);
-  height: 220px;
+  background: linear-gradient(180deg, #0a76a8 0%, #042c4d 100%);
+  height: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* border-bottom: 3px solid #094268; */
+  box-shadow: 0px 0px 15px 20px #111111;
 }
 
 .dsmeta-logo-container {
@@ -13,15 +15,25 @@ header {
 }
 
 .dsmeta-logo-container img {
-  width: 235px;
+  width: 275px;
 }
 
 .dsmeta-logo-container h1 {
   margin-top: 15px;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .dsmeta-logo-container p {
-  font-size: 14px;
+  margin-top: 10px;
+  font-size: 16px;
   font-weight: 300;
+}
+
+.dsmeta-logo-container a {
+  transition: 0.3s;
+}
+
+.dsmeta-logo-container a:hover {
+  color: #75bdee;
+  font-weight: 700;
 }

@@ -8,7 +8,7 @@
 }
 
 #sales {
-  padding: 40px 10px;
+  padding: 50px 10px 75px;
 }
 
 /* HTML tags */
@@ -21,7 +21,7 @@
 
 body,
 html {
-  background-color: #000;
+  background-color: #181818;
   color: #fff;
 }
 
