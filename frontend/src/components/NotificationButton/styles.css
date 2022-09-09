@@ -8,8 +8,19 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 .dsmeta-red-btn img {
   width: 19px;
+  transition: 0.3s;
+}
+
+.dsmeta-red-btn:hover {
+  background: rgba(255, 139, 145, 0.267);
+  border: 1px solid #f1c0c2;
+}
+
+.dsmeta-red-btn:hover img {
+  width: 20px;
 }
